@@ -31,40 +31,39 @@ The backend is located in the `websocket` directory and consists of the followin
 ## Frontend
 
 The frontend is located in the [frontend]() directory and consists of the following files:
-
-- [index.html](): Main HTML file.
-- [manifest.json](): Web app manifest.
-- [robots.txt](): Robots.txt file.
-- [App.js](): Main React component.
-- [index.js](): Entry point for the React application.
-- [reportWebVitals.js](): Performance reporting.
-- [setupTests.js](): Setup for testing.
+- `index.html`: Main HTML file.
+- `manifest.json`: Web app manifest.
+- `robots.txt`: Robots.txt file.
+- `App.js`: Main React component.
+- `index.js`: Entry point for the React application.
+- `reportWebVitals.js`: Performance reporting.
+- `setupTests.js`: Setup for testing.
 
 ### Running the Frontend
 
-1. Navigate to the [frontend]() directory:
-   ```sh
-   cd frontend
-   ```
+1. Navigate to the `frontend` directory:
+  ```sh
+  cd frontend
+  ```
 2. Install dependencies:
-   ```sh
-   npm install
-   ```
+  ```sh
+  npm install
+  ```
 3. Start the frontend development server:
-   ```sh
-   npm start
-   ```
+  ```sh
+  npm start
+  ```
 
 ## Environment Variables
 
 The backend uses the following environment variables:
 
-- [CORS_ORIGIN](): Allowed origins for CORS.
-- [PORT](): Port for the backend server.
+- `CORS_ORIGIN`: Allowed origins for CORS.
+- `PORT`: Port for the backend server.
 
 ## WebSocket Communication
 
-The WebSocket server is set up in [app-ws.js]() and handles connections, messages, and errors. The frontend uses the `react-use-websocket` library to connect to the WebSocket server and receive messages.
+The WebSocket server is set up in `app-ws.js` and handles connections, messages, and errors. The frontend uses the `react-use-websocket` library to connect to the WebSocket server and receive messages.
 
 ## License
 
