@@ -21,11 +21,11 @@ The backend is located in the `websocket` directory and consists of the followin
    ```
 2. Install dependencies:
    ```sh
-   pnpm install
+   npm install
    ```
 3. Start the backend server:
    ```sh
-   pnpm start
+   npm start
    ```
 
 ## Frontend
